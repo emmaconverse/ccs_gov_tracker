@@ -1,0 +1,126 @@
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+a {
+  text-decoration-color: red;
+  color: blue;
+  font-weight: 100;
+}
+
+.background-image {
+  background-image: url('images/flagbackground.jpg');
+  background-size: 100%;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -5;
+  opacity: .3;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.congress-number {
+  background: none;
+  border: none;
+  font-size: 50px;
+  border-bottom: 1px solid #acacac;
+  color: blue;
+  text-align: right;
+}
+
+.committee {
+  border-radius: 25px;
+  display: none;
+  margin-bottom: 30px;
+  padding: 30px;
+  box-shadow: 0 1px 4px #acacac;
+  background-color: rgba(255, 255, 255, .7);
+  margin-right: 50px;
+}
+
+.committee.active {
+  display: block;
+}
+
+.committee h2 {
+  font-size: 22px;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.committee h3 {
+  font-size: 15px;
+}
+
+.committees-container {
+  float: right;
+  width: 28%;
+/*  display: none;*/
+  border-radius: 25px;
+}
+
+/*.committees-container.active {
+  float: right;
+  display: inline;
+  width: 28%;
+}*/
+
+.bill {
+  border-radius: 2px;
+  margin-bottom: 30px;
+  padding: 30px;
+  box-shadow: 0 1px 4px #acacac;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, .7);
+  margin-left: 50px;
+}
+
+.bill h2 {
+  font-size: 22px;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.bill h3 {
+  font-size: 15px;
+}
+
+.bills-container {
+  float: left;
+  display: inline;
+  width: 70%;
+}
+
+.subcommittees-list {
+  display: block;
+  font-weight: 100;
+}
+
+.text-input {
+  display: block;
+  background: #ffffff;
+  height: 50px;
+  width: 500px;
+  margin: 15px auto;
+  border-radius: 15px;
+  font-size: 18px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gov Track</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>House Bills within the <input class="congress-number" type="number" name="congress-number" value="115" max="115" min="1" step="1"><span class="congress-number-label">th</span> Congress
+      <input type="search" name="search-bar" class="text-input" id="filter" placeholder="Search Bills...">
+    </h1>
+  </header>
+  <div class="background-image">
+    <div class="container">
+    </div>
+  </div>
+    <div class="committees-container container">
+    </div>
+    <div class="bills-container container">
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
